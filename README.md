@@ -2,7 +2,7 @@
 
 <br />
 
-O projeto consome dados de um arquivo e renderiza os dados num cartão apresentando dados pessoais, especialmente idade e data de aniversário.
+O projeto consome dados de uma API e rederiza informações referentes a trabalho em elementos de Pads.
 
 <br />
 
@@ -20,15 +20,11 @@ Conjunto de projetos de frontend inspirados na apresentação do professor **Joh
 
 <br />
 
-### Imagem do card com Lista de Contatos:
+### Imagem da tela principal do app:
 
-![Imagem do card com Lista de Contatos](/public/images/lista-de-contatos.png)
+![Imagem da tela principal do app](/public/images/tela-principal-do-app.png)
 
 <br />
-
-### Imagem da funcionalidade acrescida de Aniversariantes do Dia:
-
-![Imagem da funcionalidade acrescida de Aniversariantes do Dia](/public/images/aniversariantes-do-dia.png)
 
 <br />
 <br />
