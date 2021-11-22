@@ -11,6 +11,8 @@ const url = 'https://course-api.com/react-tabs-project'
 
 function App() {
   const [ loading, setloading ] = useState(true);
+  const [ jobs, setJobs ] = useState([]);
+  const [ value, setValue ] = useState(0);
 
 
 
@@ -22,8 +24,10 @@ function App() {
         </section>
       );
     } else {
+      const { company, dates, duties, title } = jobs[value];
+
       return (
-        <p>jobs</p>
+        <p>{company}</p>
       );
     }
   };
@@ -34,7 +38,8 @@ function App() {
     const newJobs = await response.json();
 
     console.log(newJobs);
-
+    setJobs(newJobs);
+    setloading(false);
   };
 
   useEffect(() => {
