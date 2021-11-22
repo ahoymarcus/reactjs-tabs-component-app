@@ -1,4 +1,4 @@
-# Birthday Reminder - React-JS
+# React-JS Tabs Components App
 
 <br />
 
