@@ -7,7 +7,7 @@ import { FaAngleDoubleRight } from 'react-icons/fa'
 
 // ATTENTION!!!!!!!!!!
 // I SWITCHED TO PERMANENT DOMAIN
-const url = 'https://course-api.com/react-tabs-project'
+const url = 'https://course-api.com/react-tabs-project';
 
 
 
@@ -36,6 +36,17 @@ function App() {
           </div>
           <div className="jobs-center">
             {/*btn container*/}
+            <div className="btn-container">
+              {
+                jobs.map((item, index) => {
+                  return (
+                    <button key={item.id} onClick={() => setValue(index)} >
+                      {item.company}
+                    </button>
+                  );
+                })
+              }
+            </div>
             {/*job info */}
             <article className="job-info">
               <h3>{title}</h3>
