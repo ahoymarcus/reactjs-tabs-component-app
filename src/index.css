@@ -183,12 +183,12 @@ Jobs
   outline-color: var(--clr-primary-10);
 }
 .job-btn:hover {
-  color: var(--clr-primary-5);
-  box-shadow: 0 2px var(--clr-primary-5);
+  color: #949413; /*var(--clr-primary-5);*/
+  box-shadow: 0 2px #949413; /*0 2px var(--clr-primary-5);*/
 }
 .active-btn {
-  color: var(--clr-primary-5);
-  box-shadow: 0 2px var(--clr-primary-5);
+  color: #424209; /*var(--clr-primary-5);*/
+  box-shadow: 0 2px #424209; /*0 2px var(--clr-primary-5);*/
 }
 
 .job-info h3 {
@@ -237,10 +237,10 @@ Jobs
     margin-bottom: 1rem;
   }
   .active-btn {
-    box-shadow: -2px 0 var(--clr-primary-5);
+    box-shadow: -2px 0 #7e7e41; /*-2px 0 var(--clr-primary-5);*/
   }
   .job-btn:hover {
-    box-shadow: -2px 0 var(--clr-primary-5);
+    box-shadow: -2px 0 #949413; /*-2px 0 var(--clr-primary-5);*/
   }
 }
 .btn {
